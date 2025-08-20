@@ -1,0 +1,15 @@
+[package]
+name = "polars-example-app"
+version = "0.1.0"
+edition = "2021"
+authors = ["Eric Graves me@ericgraves.dev"]
+description = "A (hopefully minimal, but not really) rust app that uses polars."
+license = "MIT"
+
+[dependencies]
+polars = { version = "0.35", features = ["json", "ipc"] }
+anyhow = "1.0"
+
+[[bin]]
+name = "polars-example-app"
+path = "src/main.rs"
