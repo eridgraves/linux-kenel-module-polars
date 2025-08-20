@@ -1,2 +1,2 @@
-# linux-kenel-module-polars
-Minimal linux kernel module that uses polars
+# linux-userspace-app-polars
+Minimal linux app that uses polars
